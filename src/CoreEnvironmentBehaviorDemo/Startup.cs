@@ -42,6 +42,11 @@ namespace CoreEnvironmentBehaviorDemo
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
+            else if (env.IsEnvironment("Testing"))
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
+            }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
