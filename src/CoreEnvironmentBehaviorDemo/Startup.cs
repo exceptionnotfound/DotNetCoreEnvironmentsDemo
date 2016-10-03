@@ -42,7 +42,7 @@ namespace CoreEnvironmentBehaviorDemo
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
-            else if (env.IsEnvironment("Testing"))
+            else if (env.IsEnvironment("Testing")) //How we use a custom environment value
             {
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
