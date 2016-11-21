@@ -1,0 +1,1 @@
+This repository goes along with my blog post entitled [Working with Environments and Launch Settings in ASP.NET Core](https://www.exceptionnotfound.net/working-with-environments-and-launch-settings-in-asp-net-core/)
